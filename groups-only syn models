@@ -1,0 +1,189 @@
+groups-only models
+
+# Supplementary materials
+
+# Mixed-effects models for the effect of groups of students with different English language backgrounds of EFL (English as a Foreign Language), ESL (English as a Second Language), and English L1 (labelled as NS in the models) on the syntactic complexity values.
+
+-----------------------------------------------------------------
+
+C/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.02923  0.1710  
+ Residual             0.05096  0.2257  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)     1.68025    0.02321 209.99998  72.380  < 2e-16 ***
+groups.facESL   0.16972    0.03283 209.99998   5.170 5.45e-07 ***
+groups.facNS    0.18087    0.03283 209.99998   5.509 1.05e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+---------------------------------------------------------------------
+
+CT/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.00477  0.06907 
+ Residual             0.01278  0.11303 
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)   4.128e-01  9.928e-03 2.100e+02  41.575  < 2e-16 ***
+groups.facESL 8.440e-02  1.404e-02 2.100e+02   6.011 8.04e-09 ***
+groups.facNS  1.064e-01  1.404e-02 2.100e+02   7.578 1.11e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+------------------------------------------------------------------------
+
+DC/C
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.002083 0.04564 
+ Residual             0.005453 0.07385 
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)   3.362e-01  6.538e-03 2.100e+02  51.421  < 2e-16 ***
+groups.facESL 5.398e-02  9.246e-03 2.100e+02   5.838 1.98e-08 ***
+groups.facNS  5.980e-02  9.246e-03 2.100e+02   6.468 6.85e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+-------------------------------------------------------------------------
+
+DC/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.02420  0.1556  
+ Residual             0.04395  0.2096  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)     0.57894    0.02122 209.99996  27.280  < 2e-16 ***
+groups.facESL   0.16835    0.03001 209.99996   5.609 6.37e-08 ***
+groups.facNS    0.18129    0.03001 209.99996   6.041 6.90e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+------------------------------------------------------------------------
+
+CP/C
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.009444 0.09718 
+ Residual             0.019761 0.14057 
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)     0.43097    0.01349 209.99996  31.949   <2e-16 ***
+groups.facESL  -0.01617    0.01908 209.99996  -0.848   0.3976    
+groups.facNS   -0.03814    0.01908 209.99996  -1.999   0.0469 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+---------------------------------------------------------------------------
+
+CP/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.03078  0.1754  
+ Residual             0.05743  0.2396  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)   7.193e-01  2.401e-02 2.100e+02  29.961   <2e-16 ***
+groups.facESL 2.977e-02  3.395e-02 2.100e+02   0.877    0.382    
+groups.facNS  2.271e-03  3.395e-02 2.100e+02   0.067    0.947 
+
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+---------------------------------------------------------------------------
+
+CN/C
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.05573  0.2361  
+ Residual             0.12504  0.3536  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)     1.83036    0.03307 210.00000  55.341   <2e-16 ***
+groups.facESL   0.02476    0.04677 210.00000   0.529    0.597    
+groups.facNS   -0.06571    0.04677 210.00000  -1.405    0.162    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+----------------------------------------------------------------------------
+
+CN/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.2864   0.5352  
+ Residual             0.3534   0.5945  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)     3.05726    0.07024 210.00000  43.527  < 2e-16 ***
+groups.facESL   0.33292    0.09933 210.00000   3.352 0.000953 ***
+groups.facNS    0.20099    0.09933 210.00000   2.023 0.044293 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+-----------------------------------------------------------------------------
+
+VP/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.09754  0.3123  
+ Residual             0.13986  0.3740  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+               Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)     2.28314    0.04155 209.99998  54.949  < 2e-16 ***
+groups.facESL   0.26578    0.05876 209.99998   4.523 1.02e-05 ***
+groups.facNS    0.22744    0.05876 209.99998   3.871 0.000145 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
