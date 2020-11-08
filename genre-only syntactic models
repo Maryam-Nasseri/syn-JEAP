@@ -164,6 +164,47 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 ------------------------------------------------------------------
 
+CN/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.3180   0.5639  
+ Residual             0.2764   0.5257  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+              Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    3.54076    0.05320  518.28501  66.552  < 2e-16 ***
+genre.facCn   -0.06063    0.05131 1050.00001  -1.182    0.238    
+genre.facIn   -0.22713    0.05131 1050.00001  -4.427 1.06e-05 ***
+genre.facLr   -0.33085    0.05131 1050.00001  -6.448 1.72e-10 ***
+genre.facMd   -0.75324    0.05131 1050.00001 -14.681  < 2e-16 ***
+genre.facRd   -0.46134    0.05131 1050.00001  -8.992  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+----------------------------------------------------------------
+
+VP/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.1140   0.3377  
+ Residual             0.1235   0.3515  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+              Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    2.39129    0.03363  585.51599  71.100  < 2e-16 ***
+genre.facCn    0.27427    0.03430 1050.00001   7.996 3.37e-15 ***
+genre.facIn    0.02352    0.03430 1050.00001   0.686  0.49304    
+genre.facLr    0.09371    0.03430 1050.00001   2.732  0.00640 ** 
+genre.facMd   -0.11251    0.03430 1050.00001  -3.280  0.00107 ** 
+genre.facRd    0.05861    0.03430 1050.00001   1.709  0.08779 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+-------------------------------------------------------------------
 
 
 
