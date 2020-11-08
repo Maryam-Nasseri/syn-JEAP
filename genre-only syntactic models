@@ -1,0 +1,118 @@
+
+# Supplementary materials for the article:
+
+
+
+
+#mixed-effects models for the efecct of rhetorical sections (labelled as 'genre') on the values of syntactic complexity measures
+
+# Labels: Ab = Abstract, In= Introduction, Lr = literature review, Md = Method & design, Rd = Results & discussion, Cn= Conclusion rhetorical section
+
+fac = factor
+
+# Abstract sections are taken as the reference level in the mixed-effects models
+--------------------------------------------------------------
+
+C/T
+
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.03740  0.1934  
+ Residual             0.04303  0.2074  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+             Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept) 1.699e+00  1.957e-02 6.054e+02  86.839  < 2e-16 ***
+genre.facCn 1.960e-01  2.024e-02 1.050e+03   9.685  < 2e-16 ***
+genre.facIn 5.531e-02  2.024e-02 1.050e+03   2.732  0.00639 ** 
+genre.facLr 1.648e-01  2.024e-02 1.050e+03   8.140 1.11e-15 ***
+genre.facMd 1.836e-03  2.024e-02 1.050e+03   0.091  0.92776    
+genre.facRd 1.681e-01  2.024e-02 1.050e+03   8.302 3.12e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+------------------------------------------------------------------
+
+CT/T
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.007137 0.08448 
+ Residual             0.011196 0.10581 
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+              Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)  4.622e-01  9.343e-03  7.168e+02  49.465  < 2e-16 ***
+genre.facCn  5.904e-02  1.033e-02  1.050e+03   5.717 1.41e-08 ***
+genre.facIn -4.267e-03  1.033e-02  1.050e+03  -0.413  0.67955    
+genre.facLr  4.777e-02  1.033e-02  1.050e+03   4.626 4.19e-06 ***
+genre.facMd -4.853e-02  1.033e-02  1.050e+03  -4.700 2.95e-06 ***
+genre.facRd  3.114e-02  1.033e-02  1.050e+03   3.016  0.00263 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+---------------------------------------------------------------------
+
+DC/C
+
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.002970 0.05450 
+ Residual             0.004481 0.06694 
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+              Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)  3.388e-01  5.956e-03  7.021e+02  56.887  < 2e-16 ***
+genre.facCn  6.748e-02  6.533e-03  1.050e+03  10.330  < 2e-16 ***
+genre.facIn  2.548e-02  6.533e-03  1.050e+03   3.900 0.000102 ***
+genre.facLr  6.350e-02  6.533e-03  1.050e+03   9.720  < 2e-16 ***
+genre.facMd -4.681e-04  6.533e-03  1.050e+03  -0.072 0.942889    
+genre.facRd  5.556e-02  6.533e-03  1.050e+03   8.505  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+--------------------------------------------------------------------
+
+DC/T
+
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ student  (Intercept) 0.03225  0.1796  
+ Residual             0.03657  0.1912  
+Number of obs: 1260, groups:  student, 210
+
+Fixed effects:
+              Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)    0.61173    0.01810  600.58716  33.791  < 2e-16 ***
+genre.facCn    0.18086    0.01866 1050.00000   9.691  < 2e-16 ***
+genre.facIn    0.04684    0.01866 1050.00000   2.510   0.0122 *  
+genre.facLr    0.15234    0.01866 1050.00000   8.163 9.32e-16 ***
+genre.facMd   -0.02048    0.01866 1050.00000  -1.097   0.2728    
+genre.facRd    0.14298    0.01866 1050.00000   7.661 4.18e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
