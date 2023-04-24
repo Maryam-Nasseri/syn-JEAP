@@ -2,7 +2,7 @@
 
 Supplementary materials for the article:
 
-Nasseri, M. (in press). Is postgraduate English academic writing more clausal or phrasal? Syntactic complexification at the crossroads of genre, proficiency, and statistical modelling, Journal of English for Academic Purposes. https://doi.org/10.1016/j.jeap.2020.100940
+Nasseri, M. (2021). Is postgraduate English academic writing more clausal or phrasal? Syntactic complexification at the crossroads of genre, proficiency, and statistical modelling, Journal of English for Academic Purposes, 49,100940. https://doi.org/10.1016/j.jeap.2020.100940
 1475-1585/© 2020 Elsevier Ltd.
 
 
